@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.ineuron.util&apos; to &apos;JDBCCrudApp/src&apos;&#x0D;&#x0A;- Original project: &apos;JDBCPreparedStatementApp&apos;&#x0D;&#x0A;- Destination element: &apos;JDBCCrudApp/src&apos;&#x0D;&#x0A;- Original element: &apos;JDBCPreparedStatementApp/src/com.ineuron.util&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=JDBCCrudApp/src" element1="/src&lt;com.ineuron.util" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1690980662335" version="1.0"/>
+</session>

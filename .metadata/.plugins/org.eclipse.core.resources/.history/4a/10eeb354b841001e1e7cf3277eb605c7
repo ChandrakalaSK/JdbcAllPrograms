@@ -1,0 +1,26 @@
+package com.ineuron.learnspringframework;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.ineuron.learnspringframework.game.GameRunner;
+import com.ineuron.learnspringframework.game.MarioGame;
+import com.ineuron.learnspringframework.game.PackmanGame;
+import com.ineuron.learnspringframework.game.SuperContraGame;
+
+public class App02HelloWorldSpring {
+
+	public static void main(String[] args) {
+		//1.Launch a Spring Context
+		var context=new	AnnotationConfigApplicationContext(HelloWordConfiguration.class);
+		
+		//2.Configure the things that we want Spring to manage- @Configuration
+		//HelloWorldConfiguration-@Configuration
+		//name-@Bean
+		//3.Retreiving Beans managed by Spring
+		System.out.println(context.getBean("name"));
+		System.out.println(context.getBean("age"));
+		System.out.println(context.getBean("person"));
+
+	}
+
+}

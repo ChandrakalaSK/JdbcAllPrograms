@@ -1,0 +1,43 @@
+package com.ineuron.learnspringframework;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+record Person(String name ,int age)
+{
+	
+}
+//Address -firstLine & City
+record Address(String address,String city)
+{
+	
+}
+@Configuration
+public class HelloWordConfiguration {
+	
+	@Bean
+	public String name()
+	{
+		return "Chandra";
+	}
+	
+	@Bean
+	public int age()
+	{
+		return 29;
+	}
+	
+	@Bean
+	public Person person()
+	{
+		return  new Person("Chaitra", 26);
+
+	}
+	
+	public Address address()
+	{
+		return new Address("Hiremath","Belgavi");
+		
+	}
+
+}

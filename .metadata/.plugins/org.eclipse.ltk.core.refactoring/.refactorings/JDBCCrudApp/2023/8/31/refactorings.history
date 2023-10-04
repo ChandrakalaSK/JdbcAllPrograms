@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.ineuron.util&apos; to &apos;JDBCPreparedStatementApp/src&apos;&#x0D;&#x0A;- Original project: &apos;JDBCCrudApp&apos;&#x0D;&#x0A;- Destination element: &apos;JDBCPreparedStatementApp/src&apos;&#x0D;&#x0A;- Original element: &apos;JDBCCrudApp/src/com.ineuron.util&apos;" description="Copy package" destination="=JDBCPreparedStatementApp/src" element1="/src&lt;com.ineuron.util" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1690981546241" version="1.0"/>
+</session>

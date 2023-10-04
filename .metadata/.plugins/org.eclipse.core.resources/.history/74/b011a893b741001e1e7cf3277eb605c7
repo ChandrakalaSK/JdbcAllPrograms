@@ -1,0 +1,21 @@
+package com.ineuron.learnspringframework;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class HelloWordConfiguration {
+	
+	@Bean
+	public String name()
+	{
+		return "Chandra";
+	}
+	
+	@Bean
+	public int age()
+	{
+		return 29;
+	}
+
+}

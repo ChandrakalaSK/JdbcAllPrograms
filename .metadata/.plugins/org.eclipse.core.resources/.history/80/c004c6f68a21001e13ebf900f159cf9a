@@ -1,0 +1,44 @@
+package com.ineuron.main;
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.ineuron.util.JdbcUtil;
+
+public class InsertApp {
+
+	public static void main(String[] args) 
+	{
+		Connection con = null;
+		PreparedStatement pstmt = null;
+		
+		try {
+			con =JdbcUtil.getJdbcConnection();
+			String insertSqlQuery ="insert into student(`name`,`age`,`address`)values(?,?,?)";
+			if(con != null)
+				pstmt=con.prepareStatement(insertSqlQuery);
+				
+		} 
+		catch (IOException e) {
+			e.printStackTrace();
+		}
+		catch (SQLException se) {
+			se.printStackTrace();
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+		finally {
+			try {
+				JdbcUtil.cleanUp(connection, null, null);
+				System.out.println("Closing resources");
+			} catch (SQLException e) {
+			
+				e.printStackTrace();
+			}
+		}
+	}
+}

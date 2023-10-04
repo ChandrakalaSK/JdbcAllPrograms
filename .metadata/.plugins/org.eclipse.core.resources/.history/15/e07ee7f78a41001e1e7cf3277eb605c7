@@ -1,0 +1,16 @@
+package com.ineuron;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.orm.jpa.LocalEntityManagerFactoryBean;
+
+@Configuration
+@EnableJpaRepositories
+public class AppConfig {
+	
+	public LocalEntityManagerFactoryBean entityManagerFactoryBean()
+	{
+		
+	}
+   
+}

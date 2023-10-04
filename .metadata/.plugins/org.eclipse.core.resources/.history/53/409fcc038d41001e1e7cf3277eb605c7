@@ -1,0 +1,20 @@
+package com.ineuron;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service("customerService ")
+public class CustomerService {
+	
+	@Autowired
+	private CustomerRepository repository;
+	
+	public void test()
+	{
+		Customer customer = new Customer();
+		customer.setFirstname("chandrakala");
+		customer.setLastname("kundagol");
+		repository.save(customer);
+	}
+    
+}

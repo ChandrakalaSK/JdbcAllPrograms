@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.core.classpathVariable.JRE_LIB=C\:/Program Files/Java/jdk1.8.0_361/jre/lib/rt.jar
+org.eclipse.jdt.core.classpathVariable.JRE_SRC=C\:/Program Files/Java/jdk1.8.0_361/src.zip
+org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
+org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
+org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+org.eclipse.jdt.core.userLibrary.Oracle=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="C\:/Users/chand/Downloads/ojdbc6-11.2.0.4.jar"/>\r\n</userlibrary>\r\n
+org.eclipse.jdt.core.userLibrary.PostgreSql=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="C\:/Users/chand/Downloads/postgresql-42.6.0.jar"/>\r\n</userlibrary>\r\n
+org.eclipse.jdt.core.userLibrary.ioutil=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="D\:/Jars/commons-io-2.13.0.jar"/>\r\n</userlibrary>\r\n
+org.eclipse.jdt.core.userLibrary.mysqlib=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="D\:/Jars/mysql-connector-j-8.0.31.jar"/>\r\n</userlibrary>\r\n

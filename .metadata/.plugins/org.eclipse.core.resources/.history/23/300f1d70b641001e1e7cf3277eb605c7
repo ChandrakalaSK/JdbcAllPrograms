@@ -1,0 +1,8 @@
+package com.ineuron.learnspringframework;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class HelloWordConfiguration {
+
+}
